@@ -1,0 +1,14 @@
+Architecture,Condition,Avg Test F1,n models
+Streaming CNN,matched,0.5375,5
+Streaming CNN,truncated,0.5295,5
+Streaming CNN,buffered,0.8157,4
+Causal Transformer,matched,0.5557,5
+Causal Transformer,truncated,0.5455,5
+Causal Transformer,buffered,0.8545,4
+TCN,matched,0.4954,5
+TCN,truncated,0.4874,5
+TCN,buffered,0.8321,4
+,,,
+GRAND AVERAGE,matched,0.5295,15
+,truncated,0.5208,15
+,buffered,0.8341,12

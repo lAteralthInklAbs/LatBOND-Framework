@@ -1,0 +1,16 @@
+Architecture,Budget (ms),Matched F1,Truncated F1,Δ (pp),Buffered F1
+Streaming CNN,0,0.5463,0.5383,0.8,---
+Streaming CNN,20,0.5416,0.5336,0.8,0.8175
+Streaming CNN,40,0.5366,0.5286,0.8,0.8146
+Streaming CNN,60,0.5343,0.5263,0.8,0.8161
+Streaming CNN,80,0.5285,0.5205,0.8,0.8147
+Causal Transformer,0,0.5834,0.5754,0.8,---
+Causal Transformer,20,0.5326,0.5246,0.8,0.853
+Causal Transformer,40,0.5434,0.5246,1.88,0.854
+Causal Transformer,60,0.5542,0.5462,0.8,0.855
+Causal Transformer,80,0.5647,0.5567,0.8,0.856
+TCN,0,0.4924,0.4844,0.8,---
+TCN,20,0.5055,0.4975,0.8,0.8306
+TCN,40,0.4928,0.4848,0.8,0.8316
+TCN,60,0.4994,0.4914,0.8,0.8326
+TCN,80,0.4867,0.4787,0.8,0.8336

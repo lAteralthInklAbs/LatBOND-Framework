@@ -1,0 +1,68 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Validation logs and outputs
+outputs/
+*.log
+validation_logs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Smoke tests (local testing only)
+smoke_test*.py
+pre_launch_smoke_test.py
+
+# Documentation (not needed in runtime image)
+*.md
+docs/

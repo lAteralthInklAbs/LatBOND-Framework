@@ -1,0 +1,14 @@
+# torch and torchaudio provided by base Docker image (pytorch/pytorch:2.1.0-cuda12.1-cudnn8-runtime)
+# DO NOT reinstall from pip - will waste time or install CPU-only version
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+pretty_midi>=0.2.10
+mir_eval>=0.7
+statsmodels>=0.14.0
+pandas>=2.0.0
+google-cloud-storage>=2.10.0
+google-cloud-aiplatform>=1.25.0
+filelock>=3.12.0
+tqdm>=4.65.0
+torchaudio

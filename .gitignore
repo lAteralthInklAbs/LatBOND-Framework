@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data (download via script, don't commit)
+data/maestro-v3.0.0/
+data/maestro*/
+*.wav
+*.mp3
+*.flac
+
+# Model checkpoints (too large for git)
+checkpoints/
+*.pt
+*.pth
+*.onnx
+best_model_*.pt
+
+# Training outputs
+results_*/
+logs/
+*.log
+wandb/
+runs/
+
+# GCP credentials (NEVER commit)
+*.json
+!package.json
+service-account-*.json
+credentials*.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Archives
+*.zip
+*.tar.gz
+*.tar
+
+# Windows scripts (keep .cmd for reference but ignore generated ones)
+*.bat

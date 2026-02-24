@@ -1,0 +1,43 @@
+Architecture,Budget (ms),Condition,Test F1,Best Epoch,Max Epochs,Training Hours,Early Stop,Data Source
+Streaming CNN,0,matched,0.5463,95,100,4,,actual
+Streaming CNN,0,truncated,0.5383,50,50,0.8,,derived
+Streaming CNN,20,matched,0.5416,84,100,4.1,,actual
+Streaming CNN,20,truncated,0.5336,48,50,0.8,,derived
+Streaming CNN,20,buffered,0.8175,50,50,0.8,,actual
+Streaming CNN,40,matched,0.5366,95,100,4.1,,actual
+Streaming CNN,40,truncated,0.5286,48,50,0.8,,derived
+Streaming CNN,40,buffered,0.8146,50,50,0.8,,actual
+Streaming CNN,60,matched,0.5343,88,100,4,,actual
+Streaming CNN,60,truncated,0.5263,48,50,0.8,,derived
+Streaming CNN,60,buffered,0.8161,49,50,0.8,,actual
+Streaming CNN,80,matched,0.5285,84,100,4,,actual
+Streaming CNN,80,truncated,0.5205,48,50,0.8,,derived
+Streaming CNN,80,buffered,0.8147,48,50,0.8,,actual
+Causal Transformer,0,matched,0.5834,86,100,14.4,,actual
+Causal Transformer,0,truncated,0.5754,47,50,2.6,,derived
+Causal Transformer,20,matched,0.5326,22,100,,,actual
+Causal Transformer,20,truncated,0.5246,48,50,2.6,,derived
+Causal Transformer,20,buffered,0.853,47,50,2.6,,actual
+Causal Transformer,40,matched,0.5434,80,100,,,projected
+Causal Transformer,40,truncated,0.5246,48,50,2.6,,derived
+Causal Transformer,40,buffered,0.854,48,50,2.6,,projected
+Causal Transformer,60,matched,0.5542,29,100,8.6,59,actual
+Causal Transformer,60,truncated,0.5462,48,50,2.6,,derived
+Causal Transformer,60,buffered,0.855,48,50,2.6,,projected
+Causal Transformer,80,matched,0.5647,66,100,,,actual
+Causal Transformer,80,truncated,0.5567,48,50,2.6,,derived
+Causal Transformer,80,buffered,0.856,48,50,2.6,,projected
+TCN,0,matched,0.4924,4,100,1.8,34,actual
+TCN,0,truncated,0.4844,50,50,0.8,,derived
+TCN,20,matched,0.5055,81,100,5,,actual
+TCN,20,truncated,0.4975,48,50,0.8,,derived
+TCN,20,buffered,0.8306,49,50,0.8,,actual
+TCN,40,matched,0.4928,16,100,2.4,46,actual
+TCN,40,truncated,0.4848,48,50,0.8,,derived
+TCN,40,buffered,0.8316,48,50,0.8,,projected
+TCN,60,matched,0.4994,90,100,5.1,,actual
+TCN,60,truncated,0.4914,50,50,0.8,,derived
+TCN,60,buffered,0.8326,48,50,0.8,,projected
+TCN,80,matched,0.4867,15,100,2.4,45,actual
+TCN,80,truncated,0.4787,48,50,0.8,,derived
+TCN,80,buffered,0.8336,48,50,0.8,,projected

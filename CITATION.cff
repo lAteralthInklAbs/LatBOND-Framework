@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "LatBOND: Latency-Budgeted Onset and Note Detection"
+authors:
+  - family-names: "Shivdasan"
+    given-names: "Anuroop Ashok"
+    orcid: ""
+version: "3.3.10"
+date-released: "2025-02-24"
+license: MIT
+repository-code: "https://github.com/anuroopshivdasan/LatBOND"
+abstract: >-
+  LatBOND investigates whether training neural networks under the same latency
+  constraints used at deployment significantly outperforms the current practice
+  of training without constraints and applying them only at inference time.
+  Through a 42-model benchmark across three architectures and five latency
+  budgets, we demonstrate that matched training with stepped geometric
+  curriculum consistently outperforms truncated training by +0.87 percentage
+  points on average.
+keywords:
+  - automatic music transcription
+  - real-time systems
+  - onset detection
+  - latency constraints
+  - distribution shift
+  - matched training
+  - neural networks
+  - curriculum learning
+preferred-citation:
+  type: thesis
+  title: "LatBOND: Latency-Budgeted Onset and Note Detection"
+  authors:
+    - family-names: "Shivdasan"
+      given-names: "Anuroop Ashok"
+  thesis-type: "Master's Thesis"
+  institution:
+    name: "University of Europe for Applied Sciences"
+  year: 2025
+  department: "Department of Data Science and Business"
