@@ -11,7 +11,7 @@
 
 ## Overview
 
-LatBOND investigates a critical gap in real-time automatic music transcription (AMT): **when models trained on full audio sequences are deployed with finite memory, input truncation creates distribution shift that degrades accuracy.** This work builds directly on [Hu et al. (ISMIR 2025)](https://arxiv.org/abs/2409.09048) who demonstrated that making transcription models real-time causes F1 to drop from 67% to 37%, but never explored training methodology solutions.
+LatBOND investigates a critical gap in real-time automatic music transcription (AMT): **when models trained on full audio sequences are deployed with finite memory, input truncation creates distribution shift that degrades accuracy.** This work builds directly on [Hu et al. (ISMIR 2025)](https://arxiv.org/abs/2509.07586) who demonstrated that making transcription models real-time causes F1 to drop from 67% to 37%, but never explored training methodology solutions.
 
 We introduce **matched training** — training models under the same memory constraints they will face at deployment — and demonstrate through a 42-model benchmark that this consistently outperforms the standard practice of training without constraints.
 
